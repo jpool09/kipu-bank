@@ -37,12 +37,12 @@ KipuBank es un contrato inteligente escrito en Solidity que simula una bóveda d
 
 ## 💰 Cómo Interactuar
 
-### ✅ Depositar ETH
+### Depositar ETH
 1. Escribe la cantidad en el campo `VALUE` (ej: `0.1`)
 2. Haz clic en `deposit()`  
 → Verás un evento `Deposit(...)` emitido.
 
-### 💸 Retirar ETH
+### Retirar ETH
 1. Llama a la función `withdraw(uint256 amount)`
 2. El monto debe ser menor o igual al límite (`withdrawalLimit`) y a tu balance personal.
 
